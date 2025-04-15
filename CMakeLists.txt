@@ -39,6 +39,7 @@ target_include_directories(
 
 target_link_libraries(
     r_fakey
+    r_av
     ${GST_LIBS}
     ${FFMPEG_LIBS}
 )
