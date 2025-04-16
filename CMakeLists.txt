@@ -44,6 +44,4 @@ target_link_libraries(
     ${FFMPEG_LIBS}
 )
 
-if(PROJECT_IS_TOP_LEVEL)
 configure_dev_package("r_fakey" "A C++ library that useful for making fake cameras.")
-endif()
